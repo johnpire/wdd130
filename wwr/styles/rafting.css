@@ -138,7 +138,7 @@ header img {
 
 header h1 {
     text-align: center;
-    color: var(--accent1-color);
+    color: var(--primary-color);
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
     grid-column: 2/3;
@@ -185,7 +185,7 @@ header h1 {
 }
 
 .adventure-awaits figcaption {
-    color: black;
+    color: var(--primary-color);
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
     text-align: center;
