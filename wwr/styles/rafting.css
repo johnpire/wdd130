@@ -72,9 +72,9 @@ article {
     position: absolute;
     color: azure;
     background-color: #504B3AB3;
-    top: 13rem;
+    top: 21rem;
     padding: 0.5rem;
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .hero article img {
@@ -144,6 +144,8 @@ header h1 {
     grid-column: 2/3;
     grid-row: 1/2;
     font-size: 3rem;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
     margin: 0.9rem;
 }
 
