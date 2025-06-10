@@ -24,8 +24,9 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -57,7 +58,7 @@ nav, p, section, article {
     height: auto;
   }
 
-main div h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -81,10 +82,6 @@ article {
     float: right;
     width: 150px;
     box-shadow: 0 0 30px #000;
-}
-
-h2 {
-    color: var(--primary-color);
 }
 
 footer {
@@ -170,8 +167,7 @@ header h1 {
 .adventure-awaits {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
-    
+    grid-gap: 5px;   
 }
 
 .adventure-awaits h2 {
@@ -192,4 +188,182 @@ header h1 {
     background-color: var(--secondary-color);
     box-shadow: var(--box-shadow);
     text-align: center;
+}
+
+
+/* CONTACT US */
+
+.contact-us {
+    position: relative;
+ }
+
+.contact-us .adventure-planning {
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    top: 19rem;
+    left: 3rem;
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    opacity: 0.9;
+ }
+
+.contact-us .support-help {
+    position: absolute;
+    width: 360px;
+    height: 200px;
+    top: 19rem;
+    right: 3rem;
+    background-color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    opacity: 0.9;
+ }
+
+.contact-us h3 {
+    margin-top: 1rem;
+    top: 20px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.contact-us img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.contact-us h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.contact-us p {
+    text-align: center;
+}
+
+.contact-container {
+    height: 35rem;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+/* Employee */
+
+.employee {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    padding: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
+.employee .employee-1 {
+    position: relative;
+    color: azure;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: 12rem;
+}
+
+.employee .employee-2 {
+    position: relative;
+    color: azure;
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: 12rem;
+}
+
+.employee .employee-3 {
+    position: relative;
+    color: azure;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: 12rem;
+}
+
+.employee img {
+    width: 130px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+
+.employee-1 img {
+    position: absolute;
+    left: 2rem;
+    top: 2rem
+}
+
+.employee-2 img {
+    position: absolute;
+    right: 2rem;
+    top: 2rem
+}
+
+.employee-3 img {
+    position: absolute;
+    left: 2rem;
+    top: 2rem
+}
+
+
+
+
+.contact-info {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.contact-info .right-info {
+    width: 340px;
+}
+
+.right-info {
+    text-align: left;
+    padding: 1rem;
+
+}
+
+.right-info h2 {
+    background-color: var(--accent2-color);
+}
+
+.right-info h3 {
+    background-color: var(--secondary-color);
+}
+
+.contact-info .icon-container {
+    margin: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+    position: relative;
+}
+
+.icon-container img {
+    position: absolute;
+    width: 1rem;
+}
+
+.icon-container .location {
+    top: 2.4rem;
+}
+
+.icon-container .phone {
+    top: 7rem;
+}
+
+.icon-container .email {
+    top: 10.3rem;
 }
