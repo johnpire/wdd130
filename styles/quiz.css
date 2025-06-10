@@ -53,6 +53,7 @@ input, select, textarea {
     padding: 0.5rem;
     font-size: 1.1rem;
     box-shadow: 0 0 4px gray;
+    border: 1px solid #ccc;
 }
 
 button {
