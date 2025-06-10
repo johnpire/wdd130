@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>HTML & CSS Basics Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="q1"> <span class="color-text">1.</span> Which tag is used to insert an image?</label>
+                <input type="text" name="q1" id="q1" >
+
+                <label for="q2"><span class="color-text">2.</span> Explain the difference between inline and block-level elements in HTML.</label>
+                <textarea name="q2" id="q2"></textarea>
+
+                <label for="q3"><span class="color-text">3.</span> Which property changes text color?</label>
+                <select name="q3" id="q3">
+                    <option value="" selected disabled>Choose One ...</option>
+                    <option value="">font-size</option>
+                    <option value="">text-align</option>
+                    <option value="">color</option>
+                    <option value="">font-weight</option>
+                </select>
+
+                <label for="q4"><span class="color-text">4.</span> What is the left margin given this declaration?</label>
+                <div>
+                    <img src="images/q4.PNG" alt="margin: 20px 5px 12px 8px;">
+                </div>
+                <input type="number" id="q4">
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
