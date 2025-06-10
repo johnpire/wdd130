@@ -22,7 +22,8 @@ h1 {
 }
 
 form {
-    width: 600px;
+    max-width: 600px;
+    width: 90%
     margin: 0 auto;
     border: 1px solid grey;
     border-radius: 0.5rem;
