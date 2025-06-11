@@ -465,3 +465,7 @@ header h1 {
 .contact-form fieldset:nth-of-type(2) input[type="radio"] {
     margin-left: 0;
 }
+
+footer div {
+    text-align: center;
+}
