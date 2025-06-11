@@ -440,7 +440,7 @@ header h1 {
 }
 
 .contact-form button[type="submit"] {
-    background-color: #4a90e2;
+    background-color: var(--primary-color);
     color: white;
     border: none;
     padding: 12px 20px;
@@ -451,7 +451,7 @@ header h1 {
 }
 
 .contact-form button[type="submit"]:hover {
-    background-color: #357abd;
+    background-color: var(--secondary-color)
 }
 
 /* Style for radio buttons section */
