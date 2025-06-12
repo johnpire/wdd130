@@ -137,7 +137,8 @@ header h1 {
     text-align: center;
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    box-shadow: var(--box-shadow);
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
     grid-column: 2/3;
     grid-row: 1/2;
     font-size: 3rem;
