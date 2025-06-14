@@ -1,4 +1,0 @@
-https://roadmap.sh/frontend?r=frontend-beginner - Use this for a visual Frontend roadmap for your journey
-https://roadmap.sh/backend - Use this for a visual Backend roadmap for your journey as a developer
-
-Basically everything on the site seems to help
