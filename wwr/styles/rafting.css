@@ -325,7 +325,7 @@ header h1 {
 }
 
 .right-info .socialmedia {
-    left: 6rem;
+    left: 5.95rem;
     bottom: 7rem;
 }
 
@@ -543,10 +543,11 @@ footer div {
 
 .adventure-title {
     border-top: 1px solid var(--primary-color);
-    padding-top: 1rem;
+    padding-top: 3rem;
     margin-top: 1rem;
     text-align: center;
 }
+
 
 #adventure-highlight {
     height: 20rem;
@@ -609,6 +610,64 @@ footer div {
     background-color: #504B3AE9;
     width: 400px;
     height: 10rem;
+}
+
+/* Newsletter */
+
+#newsletter-section {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--light);
+    margin-top: 1rem;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#signup-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: var(--primary-color);
+  color: azure;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#signup-button:hover {
+  background-color: var(--accent1-color);
 }
 
 /* Adventure Showcase */
@@ -753,11 +812,18 @@ footer div {
 }
 
 /* TRIPS */
+.right-info .click-button {
+    padding: 1rem;
+    box-shadow: var(--light);
+    bottom: 1.5rem;
+    right: 5rem;
+}
+
 .trips-title {
     text-align: center;
     background-color: var(--secondary-color);
     border-radius: 0.5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: -0.5rem;
 }
 
