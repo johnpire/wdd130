@@ -556,6 +556,7 @@ footer div {
     border-radius: 0.5rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    background-color: #f9f9f9;
 }
 
 .highlight {
@@ -620,6 +621,7 @@ footer div {
     box-shadow: 0 1px 5px var(--primary-color);
     margin-left: 0.25rem;
     margin-right: 0.25rem;
+    background-color: #f9f9f9;
 }
 
 #adventure-showcase h3 {
