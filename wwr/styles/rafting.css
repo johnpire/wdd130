@@ -5,7 +5,10 @@
     --accent2-color: #DE9151; /* Persian Orange */
     --heading-font: "PT Serif", serif;
     --body-font: "Lato", sans-serif;
-    --box-shadow: 0 0 30px var(--primary-color);
+
+    /* Box Shadows */
+    --hard: 0 0 30px var(--primary-color);
+    --light: 0 1px 5px var(--primary-color);
 }
 
 * {
@@ -152,7 +155,7 @@ header h1 {
 .history {
 	display: flex;
     margin: 1rem auto;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--hard);
 }
 
 .history img {
@@ -167,7 +170,7 @@ header h1 {
 /* Main | Section: Adventure */
 .adventure-awaits {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;   
 }
 
@@ -187,7 +190,7 @@ header h1 {
 .adventure-awaits figcaption {
     color: var(--primary-color);
     background-color: var(--secondary-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--light);
     text-align: center;
 }
 
@@ -205,7 +208,7 @@ header h1 {
     top: 19rem;
     left: 3rem;
     background-color: var(--secondary-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--hard);
     opacity: 0.9;
  }
 
@@ -216,7 +219,7 @@ header h1 {
     top: 19rem;
     right: 3rem;
     background-color: var(--secondary-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--hard);
     opacity: 0.9;
  }
 
@@ -231,7 +234,7 @@ header h1 {
     width: 9rem;
     left: 5.8rem;
     bottom: 0.8rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
 }
 
 .contact-us h3 {
@@ -275,6 +278,8 @@ header h1 {
 .contact-info {
     display: flex;
     margin-top: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .contact-info .right-info {
@@ -328,9 +333,7 @@ header h1 {
 
 .employee {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    grid-template-columns: repeat(5, 1fr);
     padding: 1rem;
 }
 
@@ -348,7 +351,7 @@ header h1 {
     padding: 0.5rem;
     margin: 0.5rem;
     height: 12rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
     border-radius: 0.5rem;
 }
 
@@ -458,7 +461,7 @@ header h1 {
     padding: 12px 20px;
     font-size: 16px;
     border-radius: 4px;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
     position: relative;
 }
 
@@ -513,7 +516,7 @@ footer div {
     border-radius: 0.2rem;
     width: auto;
     position: absolute;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--hard);
     transition: background-color 0.3s;
 }
 
@@ -552,7 +555,7 @@ footer div {
     margin-top: 1rem;
     padding-top: 1rem;
     padding-bottom: 20rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
     border-radius: 0.5rem;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
@@ -618,7 +621,7 @@ footer div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 0.5rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
     margin-left: 0.25rem;
     margin-right: 0.25rem;
     background-color: #f9f9f9;
@@ -638,13 +641,13 @@ footer div {
 .showcase {
     width: auto;
     height: auto;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
     z-index: 0;
 }
 
 .text-box {
     position: absolute;
-    box-shadow: var(--box-shadow);
+    box-shadow: var(--hard);
     border-radius: 0.5rem;
     width: 400px;
     height: 170px;
@@ -682,7 +685,7 @@ footer div {
     left: 6.1rem;
     bottom: 1.5rem;
     width: 11rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
 }
 
  /* Showcase Trips */
@@ -714,7 +717,7 @@ footer div {
     right: 8.3rem;
     bottom: 1.5rem;
     width: 6rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
 }
 
  /* Showcase Contact */
@@ -746,5 +749,38 @@ footer div {
     left: 7.9rem;
     bottom: 1.5rem;
     width: 6.75rem;
-    box-shadow: 0 1px 5px var(--primary-color);
+    box-shadow: var(--light);
+}
+
+/* TRIPS */
+.trips-title {
+    text-align: center;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: -0.5rem;
+}
+
+/* Trip Table */
+
+#trips-table.styled-table {
+  width: 840px;
+  border-collapse: collapse;
+  box-shadow: var(--light);
+  margin-top: 1rem;
+}
+
+#trips-table thead {
+  background-color: var(--primary-color);
+  color: azure;
+}
+
+#trips-table th, #trips-table td {
+  padding: 1rem;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+#trips-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
