@@ -5,6 +5,7 @@
     --accent2-color: #DE9151; /* Persian Orange */
     --heading-font: "PT Serif", serif;
     --body-font: "Lato", sans-serif;
+    --opt-text-color: #2c2920;
 
     /* Box Shadows */
     --hard: 0 0 30px var(--primary-color);
@@ -156,6 +157,7 @@ header h1 {
 	display: flex;
     margin: 1rem auto;
     box-shadow: var(--hard);
+    color: var(--opt-text-color);
 }
 
 .history img {
@@ -165,19 +167,21 @@ header h1 {
 .history-div h2{
     text-align: center;
     background-color: var(--accent2-color);
+    color: var(--opt-text-color);   
 }
 
 /* Main | Section: Adventure */
 .adventure-awaits {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 5px;   
+    grid-gap: 5px;
 }
 
 .adventure-awaits h2 {
     grid-column: 1/6;
     text-align: center;
     background-color: var(--accent2-color);
+    color: var(--opt-text-color);
 }
 
 .adventure-awaits figure img {
@@ -188,7 +192,7 @@ header h1 {
 }
 
 .adventure-awaits figcaption {
-    color: var(--primary-color);
+    color: var(--opt-text-color);
     background-color: var(--secondary-color);
     box-shadow: var(--light);
     text-align: center;
@@ -294,6 +298,7 @@ header h1 {
 
 .right-info h2 {
     background-color: var(--accent2-color);
+    color: var(--opt-text-color);
 }
 
 .right-info h3 {
@@ -305,6 +310,7 @@ header h1 {
     border: 1px solid var(--primary-color);
     padding: 1rem;
     position: relative;
+    color: var(--opt-text-color);
 }
 
 .icon-container img {
@@ -342,6 +348,7 @@ header h1 {
     text-align: center;
     background-color: var(--accent2-color);
     border-radius: 0.5rem;
+    color: var(--opt-text-color);
 }
 
 .employee .employee-1, .employee-2, .employee-3 {
@@ -383,7 +390,7 @@ header h1 {
     right: 1rem;
     width: 580px;
     top: 2.5rem;
-    color: var(--primary-color);
+    color: var(--opt-text-color);
 }
 
 .employee-2 .introduction {
@@ -391,7 +398,7 @@ header h1 {
     left: 2rem;
     width: 600px;
     top: 3rem;
-    color: var(--primary-color);
+    color: var(--opt-text-color);
 }
 
 
@@ -402,7 +409,7 @@ header h1 {
     margin: 0 auto;
     padding: 1rem;
     font-family: 'Arial', sans-serif;
-    color: #333;
+    color: var(--opt-text-color);
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -418,7 +425,7 @@ header h1 {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #444;
+    color: var(--opt-text-color)
 }
 
 .contact-form input[type="text"], .contact-form textarea {
@@ -448,7 +455,7 @@ header h1 {
 
 .contact-form p {
     margin: 5px 0;
-    color: #666;
+    color: var(--opt-text-color);
 }
 
 .contact-form input[type="radio"] {
@@ -584,6 +591,7 @@ footer div {
 .highlight h2 {
     text-align: center;
     background-color: var(--accent2-color);
+    color: var(--opt-text-color);
 }
 
 .highlight-hidden h3 {
@@ -688,6 +696,7 @@ footer div {
 
 #adventure-showcase h3 {
     text-align: center;
+    color: var(--opt-text-color);
 }
 
 #adventure-showcase img {
