@@ -493,7 +493,7 @@ footer div {
 
 /* Hero */
 
-#hero-vid-container{
+#hero-img-container{
     position: relative;
     height: 475px;
 }
@@ -504,7 +504,7 @@ footer div {
     text-align: center;
 }
 
-#hero-video {
+#hero-img {
     position: absolute;
     z-index: -1;
     width: 840px;
@@ -527,10 +527,8 @@ footer div {
     transition: background-color 0.3s;
 }
 
-#hero-vid-container .click-button {
+#hero-img-container .click-button {
     width: 5.6rem;
-    left: 358px;
-    bottom: 3rem;
 }
 
 .click-button:hover {
@@ -539,11 +537,14 @@ footer div {
     border-radius: 0.2rem;
 }
 
-#book-now-h2 {
+#book-now {
     position: absolute;
-    color: azure;
-    bottom: 7rem;
+    bottom: 12.5rem;
     left: 358px;
+}
+
+#book-now-h2 {
+    color: azure;
 }
 
 /* Highlight */
