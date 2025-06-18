@@ -493,7 +493,7 @@ footer div {
 
 /* Hero */
 
-#hero-img-container{
+#hero-vid-container{
     position: relative;
     height: 490px;
 }
@@ -504,7 +504,7 @@ footer div {
     text-align: center;
 }
 
-#hero-img {
+#hero-vid {
     position: absolute;
     z-index: -1;
     width: 840px;
@@ -527,7 +527,7 @@ footer div {
     transition: background-color 0.3s;
 }
 
-#hero-img-container .click-button {
+#hero-vid-container .click-button {
     width: 5.6rem;
 }
 
@@ -539,7 +539,7 @@ footer div {
 
 #book-now {
     position: absolute;
-    bottom: 12.5rem;
+    bottom: 8rem;
     left: 358px;
 }
 
