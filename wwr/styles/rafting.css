@@ -557,7 +557,7 @@ footer div {
 }
 
 
-#adventure-highlight {
+.adventure-highlight {
     height: 20rem;
     display: flex;
     justify-content: center;
@@ -610,7 +610,7 @@ footer div {
     width: 400px;
 }
 
-#highlight-left {
+.highlight-left {
     margin-right: 1rem;
 }
 
